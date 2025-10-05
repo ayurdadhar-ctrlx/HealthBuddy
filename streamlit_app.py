@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import os
 import json
@@ -57,4 +56,5 @@ if user_input := st.chat_input("Type your message"):
     with st.chat_message("assistant"):
         st.markdown(bot_reply)
 ```
+
 
